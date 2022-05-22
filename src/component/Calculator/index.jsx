@@ -48,7 +48,7 @@ const NumberButton = styled.button`
 `;
 
 let num = "";
-let result = 0;
+//let result = 0;
 let num_array = [];
 let sign_array = [];
 
@@ -59,7 +59,7 @@ function Calculator() {
   useEffect(() => {
     setData("");
     num = "";
-    result = 0;
+    // result = 0;
     num_array = [];
     sign_array = [];
   }, [isClick]);
@@ -67,19 +67,19 @@ function Calculator() {
   const clickButton = (e) => {
     if (e.target.value === "=") {
       num_array.push(parseInt(num));
-      result = num_array[0];
+      num = num_array[0];
       for (let i = 0; i < num_array.length; i++) {
         if (sign_array[i - 1] === "+") {
-          result += num_array[i];
+          num += num_array[i];
         } else if (sign_array[i - 1] === "-") {
-          result -= num_array[i];
+          num -= num_array[i];
         } else if (sign_array[i - 1] === "*") {
-          result *= num_array[i];
+          num *= num_array[i];
         } else if (sign_array[i - 1] === "/") {
-          result /= num_array[i];
+          num /= num_array[i];
         }
       }
-      setData(result);
+      setData(num);
     } else if (!isNaN(e.target.value)) {
       //숫자를 눌렀을 때
       num += e.target.value;
