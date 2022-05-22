@@ -57,11 +57,11 @@ function Calculator() {
   const [isClick, setReset] = useState(false);
 
   useEffect(() => {
+    setData("");
     num = "";
     result = 0;
     num_array = [];
     sign_array = [];
-    setData("");
   }, [isClick]);
 
   const clickButton = (e) => {
@@ -134,7 +134,7 @@ function Calculator() {
         <NumberButton value="-" onClick={clickButton}>
           -
         </NumberButton>
-        <NumberButton value="clear" onClick={() => setReset(true)}>
+        <NumberButton value="clear" onClick={() => setReset(!isClick)}>
           @
         </NumberButton>
         <NumberButton value="0" onClick={clickButton}>
