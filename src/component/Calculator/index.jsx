@@ -48,7 +48,6 @@ const NumberButton = styled.button`
 `;
 
 let num = "";
-//let result = 0;
 let num_array = [];
 let sign_array = [];
 
@@ -59,7 +58,6 @@ function Calculator() {
   useEffect(() => {
     setData("");
     num = "";
-    // result = 0;
     num_array = [];
     sign_array = [];
   }, [isClick]);
