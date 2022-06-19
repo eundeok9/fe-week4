@@ -315,9 +315,3 @@ function Calculator() {
 
 
 https://user-images.githubusercontent.com/100702397/174487032-40999c2d-310d-439f-bff9-8fe09c68e923.mp4
-
-
-
-# 실습 결과
-
-https://user-images.githubusercontent.com/100702397/169689705-c6ebe291-0931-4c3e-a845-16dc7708528f.mp4
