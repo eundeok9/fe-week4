@@ -80,7 +80,11 @@ export default InputSample;
 
 ## < 실습 1번 결과 >
 
-<br>
+
+
+https://user-images.githubusercontent.com/100702397/174487016-33dbe221-2dfe-43c7-abc6-62a8af272ddd.mp4
+
+
 
 # 실습 2번문제
 
@@ -117,7 +121,11 @@ const Problem = () => {
 
 ## < 실습 2번 결과>
 
-<br>
+
+
+https://user-images.githubusercontent.com/100702397/174487025-40229eb4-158c-4656-8aec-28f571316be2.mp4
+
+
 
 # 실습 3번문제
 
@@ -304,7 +312,11 @@ function Calculator() {
 
 ## < 실습 3번 결과 >
 
-<br>
+
+
+https://user-images.githubusercontent.com/100702397/174487032-40999c2d-310d-439f-bff9-8fe09c68e923.mp4
+
+
 
 # 실습 결과
 
